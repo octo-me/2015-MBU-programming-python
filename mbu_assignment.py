@@ -1,10 +1,13 @@
+
+
 # 2015 MBU Programming Assignment 2
 #
 # Write a program that will take several inputs on the command line and
 # determine if the numbers are odd or even.
 #
 # Run the program by using the terminal by typing:
-# "python mbu_assignment.py number1_input number2_input number3_input"
+# "python mb)
+#u_assignment.py number1_input number2_input number3_input"
 #
 # You can access the arguments on the command line by using the object sys.argv
 # sys.argv[0] is the name of the file. sys.argv[1] is the first argument.
@@ -34,6 +37,13 @@ def main():
 
     #This is for loop. We take each element from sys.argv and print it to the consile.
     for i in sys.argv[1:]:
+        
+        a = int(i)
+        if a%2:
+            print "odd"
+        else:
+         print "even"
+            
         print str(i)
         print "\n"
 
